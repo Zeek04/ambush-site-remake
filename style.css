@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.banner{
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+    background-image:none;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    animation:change 35s infinite ease-in-out;
+}
+@keyframes change{
+0%
+{
+    background-image: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)),url(img/ssph2.png);
+}
+30%
+{
+    background-image: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)),url(img/ssph3.png);
+}
+60%
+{
+    background-image: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)),url(img/ssph4.png);
+}
+90%
+{
+    background-image: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)),url(img/ssph5.png);
+}
+120%
+{
+    background-image: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)),url(img/ssph6.png);
+}
+150%
+{
+    background-image: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)),url(img/ssph7.png);
+}
+150%
+{
+    background-image: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)),url(img/ssph1.jpg);
+}
+
+}
