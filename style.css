@@ -30,7 +30,7 @@
 .logo strong{
     font-size: 25px;
     margin: 16%;
-
+    color: #16e45b;
 }
 
 .logo span{
@@ -52,7 +52,7 @@
     content: '';
     height: 3px;
     width: 0%;
-    background: #009688;
+    background: #16e45b;
     position: absolute;
     left: 0;
     bottom: -5px;
@@ -61,9 +61,46 @@
 .navbar ul li:hover::after{
     width: 100%;
 }
-
-
-
+.content{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50);
+    text-align: center;
+    color: #fff;
+}
+.content h1{
+    font-size: 70px;
+    margin-top: -30px;
+}
+.content p{
+    margin: 20px auto;
+    font-weight: 100;
+    line-height: 25px;
+}
+button{
+    width: 200px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid #16e45b;
+    background: transparent;
+    cursor: pointer;
+    color: #fff;
+    position: relative;
+    overflow: hidden;
+}
+.button span{
+    background: #16e45b;
+    height: 100%;
+    width: 100%;
+    border-radius: 25px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
 
 @keyframes change{
 0%
