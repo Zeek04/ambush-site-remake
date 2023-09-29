@@ -1,4 +1,5 @@
 /*-- Home Page --*/
+
 *{
     margin: 0;
     padding: 0;
@@ -149,6 +150,8 @@ button:hover{
 }
 
 /*-- intro page --*/
+/*-- what is ambush? --*/
+
 .introText{
    background-image: linear-gradient(rgba(0,0,0,0.30), rgba(0,0,0,0.30)),url(img/mainbg.png);
    width: auto;
@@ -170,14 +173,15 @@ button:hover{
     line-height: 30px;
 }
 
+/*-- video and our field --*/
+
 .introText h2{
     font-size: 45px;
     color:#16e45b;
     font-weight: 600;
-    margin-top: 250px;
+    margin-top: 150px;
     margin-bottom: 40px;
 }
-
 .video-container{
     margin-top: 90px;
     display:flex;
@@ -196,6 +200,54 @@ button:hover{
     margin-left: 10px;
     position:absolute;
 }
+.introText #zone-description{
+    margin-top: 30px;
+    line-height: 60px;
+}
+.introText #zone-description li{
+    list-style: none;
+    width: 100%;
+    background: linear-gradient(rgba(0,0,0,0.50), rgba(0,0,0,0.50)),#16e45b;
+    margin-bottom: 10px;
+    border-radius: 4px;
+}
+.introText #zone-description li label{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    font-size: 25px;
+    margin-bottom: 15px;
+    
+}
+.introText #zone-description li label span{
+    transform: rotate(90deg);
+    font-size: 25px;
+}
+.introText #zone-description label + input[type = "radio"]{
+    display: none;
+}
+.introText #zone-description .content{
+    padding: 0 10px;
+    line-height: 26px;
+    overflow: hidden;
+    max-height: 0;
+    transition: max-height 0.5s;
+}
+.introText #zone-description label + input[type = "radio"]:checked + .content{
+    max-height: 1000px;
+}
+
+
+
+
+
+
+
+
+
+/*--smaller screen changes--*/
 
 @media screen and (max-width:770px){
     #DroneVid{
