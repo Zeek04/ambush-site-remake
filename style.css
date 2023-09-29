@@ -153,7 +153,7 @@ button:hover{
 /*-- what is ambush? --*/
 
 .introText{
-   background-image: linear-gradient(rgba(0,0,0,0.30), rgba(0,0,0,0.30)),url(img/mainbg.png);
+   background-image: url(img/mainbg.png);
    width: auto;
    margin: auto;
    text-align: center;
@@ -207,7 +207,7 @@ button:hover{
 .introText #zone-description li{
     list-style: none;
     width: 100%;
-    background: linear-gradient(rgba(0,0,0,0.50), rgba(0,0,0,0.50)),#16e45b;
+    background:#16e45b;
     margin-bottom: 10px;
     border-radius: 4px;
 }
