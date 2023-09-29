@@ -153,17 +153,19 @@ button:hover{
 /*-- what is ambush? --*/
 
 .introText{
-   background-image: url(img/mainbg.png);
-   width: auto;
+   background:url(img/mainbg.png);;
+   width: 100%;
+   height: 4000px;
    margin: auto;
    text-align: center;
-   padding: 100px;
+
 }
 .introText h1{
     color:#16e45b;
     font-size: 45px;
     font-weight: 600;
     margin-bottom: 40px;
+    padding-top:60px;
 }
 
 .introText p{
@@ -179,11 +181,11 @@ button:hover{
     font-size: 45px;
     color:#16e45b;
     font-weight: 600;
-    margin-top: 150px;
+    margin-top: 70px;
     margin-bottom: 40px;
 }
 .video-container{
-    margin-top: 90px;
+    margin-top: 80px;
     display:flex;
     align-items: left;
     justify-content:left;
@@ -206,9 +208,9 @@ button:hover{
 }
 .introText #zone-description li{
     list-style: none;
-    width: 100%;
+    width: 99%;
     background:#16e45b;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
     border-radius: 4px;
 }
 .introText #zone-description li label{
@@ -218,7 +220,7 @@ button:hover{
     justify-content: space-between;
     cursor: pointer;
     font-size: 25px;
-    margin-bottom: 15px;
+    margin-bottom: 20px;
     
 }
 .introText #zone-description li label span{
@@ -229,20 +231,16 @@ button:hover{
     display: none;
 }
 .introText #zone-description .content{
-    padding: 0 10px;
+    padding: 20 10px;
     line-height: 26px;
     overflow: hidden;
     max-height: 0;
     transition: max-height 0.5s;
+    position: relative;
 }
 .introText #zone-description label + input[type = "radio"]:checked + .content{
     max-height: 1000px;
 }
-
-
-
-
-
 
 
 
@@ -254,19 +252,19 @@ button:hover{
         width: 100%;
     }
     .introText p{
-        font-size: 13px;
+        font-size: 14px;
         line-height: 25px;
-        margin: -90px;
+        margin: 20px;
         margin-top: 20px;
         margin-bottom: 20px;
     }
     .introText h1{
-        font-size: 20px;
+        font-size: 22px;
     }
 
     .introText h2{
         margin-top: 5px;
-        font-size: 20px;
+        font-size: 22px;
     }
 
     .introText #videoText{
@@ -276,8 +274,20 @@ button:hover{
 
 
     .content h1{
-        font-size: 44px;
+        font-size: 45px;
     }
 
+    .video-container{
+        margin-top: 80px;
+        display:block
+    }
+    .introText #zone-description label{
+        height: 20px;
+        justify-content: space-between;
+    }
+    .introText #zone-description li{
+        margin-bottom: 20px;
+        
+    }
 
 }
