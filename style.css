@@ -1,3 +1,4 @@
+/*-- Home Page --*/
 *{
     margin: 0;
     padding: 0;
@@ -124,7 +125,6 @@ button:hover{
     .content h1{
         font-size: 44px;
     }
-    
 }
 
 @keyframes change{
@@ -152,4 +152,51 @@ button:hover{
 {
     background-image: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)),url(img/ssph7.png);
 }
+}
+
+/*-- intro page --*/
+.introText{
+   background-image: linear-gradient(rgba(0,0,0,0.30), rgba(0,0,0,0.30)),url(img/mainbg.png);
+   width: auto;
+   margin: auto;
+   text-align: center;
+   padding: 100px;
+}
+.introText h1{
+    color:#16e45b;
+    font-size: 45px;
+    font-weight: 600;
+    padding-bottom: 40px;
+}
+
+.introText p{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 30px;
+    padding: 25px;
+}
+
+.introText h2{
+    font-size: 35px;
+    color:#16e45b;
+    font-weight: 600;
+    padding-top: 40px;
+    margin-bottom: 40px;
+}
+
+#DroneVid{
+    width: auto;
+    position: relative;
+    overflow: hidden;
+    padding:20px;
+    padding-right: 50px;
+}
+
+.introText #videoText{
+    color:#fff;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: right;
+    position: relative;
 }
