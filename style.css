@@ -121,12 +121,6 @@ button:hover{
     border: none;
 }
 
-@media screen and (max-width:770px){
-    .content h1{
-        font-size: 44px;
-    }
-}
-
 @keyframes change{
 0%
 {
@@ -166,7 +160,7 @@ button:hover{
     color:#16e45b;
     font-size: 45px;
     font-weight: 600;
-    padding-bottom: 40px;
+    margin-bottom: 40px;
 }
 
 .introText p{
@@ -174,23 +168,18 @@ button:hover{
     font-size: 20px;
     font-weight: 300;
     line-height: 30px;
-    padding: 25px;
 }
 
 .introText h2{
     font-size: 35px;
     color:#16e45b;
     font-weight: 600;
-    padding-top: 40px;
+    margin-top: 40px;
     margin-bottom: 40px;
 }
 
-#DroneVid{
+.introText video{
     width: auto;
-    position: relative;
-    overflow: hidden;
-    padding:20px;
-    padding-right: 50px;
 }
 
 .introText #videoText{
@@ -199,4 +188,35 @@ button:hover{
     line-height: 30px;
     text-align: right;
     position: relative;
+}
+
+@media screen and (max-width:770px){
+    #DroneVid{
+        width: 100%;
+    }
+    .introText p{
+        font-size: 13px;
+        line-height: 25px;
+        margin: -90px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .introText h1{
+        font-size: 20px;
+    }
+
+    .introText h2{
+        font-size: 20px;
+    }
+
+    .introText #videoText{
+        font-size: 14px;
+    }
+
+
+    .content h1{
+        font-size: 44px;
+    }
+
+
 }
