@@ -171,23 +171,30 @@ button:hover{
 }
 
 .introText h2{
-    font-size: 35px;
+    font-size: 45px;
     color:#16e45b;
     font-weight: 600;
-    margin-top: 40px;
+    margin-top: 250px;
     margin-bottom: 40px;
 }
 
-.introText video{
-    width: auto;
+.video-container{
+    margin-top: 90px;
+    display:flex;
+    align-items: left;
+    justify-content:left;
 }
-
+.video-container video{
+    max-width: 100%;
+    height: auto;
+}
 .introText #videoText{
-    color:#fff;
+    color:white;
     font-size: 20px;
     line-height: 30px;
-    text-align: right;
-    position: relative;
+    font-weight: 300px;
+    margin-left: 10px;
+    position:absolute;
 }
 
 @media screen and (max-width:770px){
@@ -206,11 +213,13 @@ button:hover{
     }
 
     .introText h2{
+        margin-top: 5px;
         font-size: 20px;
     }
 
     .introText #videoText{
         font-size: 14px;
+        position: relative;
     }
 
 
