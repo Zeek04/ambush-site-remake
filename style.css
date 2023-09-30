@@ -165,7 +165,7 @@ button:hover{
     font-size: 45px;
     font-weight: 600;
     margin-bottom: 40px;
-    padding-top:60px;
+    padding-top:90px;
 }
 
 .introText p{
@@ -173,6 +173,8 @@ button:hover{
     font-size: 20px;
     font-weight: 300;
     line-height: 30px;
+    margin: 60px;
+    margin-bottom: -30px;
 }
 
 /*-- video and our field --*/
@@ -181,18 +183,19 @@ button:hover{
     font-size: 45px;
     color:#16e45b;
     font-weight: 600;
-    margin-top: 70px;
+    margin-top: 60px;
     margin-bottom: 40px;
 }
 .video-container{
-    margin-top: 80px;
+    margin-top: 250px;
     display:flex;
     align-items: left;
     justify-content:left;
 }
 .video-container video{
-    max-width: 100%;
+    max-width: 95%;
     height: auto;
+    margin: 10px;
 }
 .introText #videoText{
     color:white;
@@ -204,11 +207,20 @@ button:hover{
 }
 .introText #zone-description{
     margin-top: 30px;
-    line-height: 60px;
+    line-height: 30px;
+}
+.introText p{
+    font-size: 20px;
+    line-height: 35px;
+    font-style: italic;
+    font-weight: 500;
+    margin: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 .introText #zone-description li{
     list-style: none;
-    width: 99%;
+    width: 100%;
     background:#16e45b;
     margin-bottom: 15px;
     border-radius: 4px;
@@ -231,7 +243,7 @@ button:hover{
     display: none;
 }
 .introText #zone-description .content{
-    padding: 20 10px;
+    padding: 0 10px;
     line-height: 26px;
     overflow: hidden;
     max-height: 0;
