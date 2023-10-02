@@ -161,7 +161,7 @@ button:hover{
 
 }
 .introText h1{
-    color:#16e45b;
+    color:rgba(250,255,25,1);
     font-size: 45px;
     font-weight: 600;
     margin-bottom: 40px;
@@ -181,7 +181,7 @@ button:hover{
 
 .introText h2{
     font-size: 45px;
-    color:#16e45b;
+    color:rgba(250,255,25,1);
     font-weight: 600;
     margin-top: 60px;
     margin-bottom: 40px;
@@ -214,14 +214,14 @@ button:hover{
     line-height: 35px;
     font-style: italic;
     font-weight: 500;
-    margin: 30px;
+    margin: 25px;
     margin-top: 20px;
     margin-bottom: 20px;
 }
 .introText #zone-description li{
     list-style: none;
     width: 100%;
-    background:#16e45b;
+    background:rgba(76,108,5,1);
     margin-bottom: 15px;
     border-radius: 4px;
 }
