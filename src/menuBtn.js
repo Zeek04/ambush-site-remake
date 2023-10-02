@@ -41,3 +41,6 @@ document.addEventListener("DOMContentLoaded", function () {
         });
     });
 });
+document.getElementById('map-overlay').addEventListener('click', function() {
+    document.querySelector('.map-container').style.filter = 'blur(0px)'; // Remove the blur
+});
