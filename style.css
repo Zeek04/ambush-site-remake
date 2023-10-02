@@ -269,7 +269,7 @@ body{
     font-weight: 600;
     text-align: center;
     margin-bottom: 20px;
-    margin-top: 60px;
+    margin-top: 100px;
 }
 .button-section{
     text-align: center;
@@ -294,12 +294,14 @@ body{
     justify-content: center;
     align-items: center;
     background: rgba(76,108,5,1);
+    overflow: hidden;
     z-index: 1;
 }
 .learnmore-buttons button img{
     max-width: 350px;
     height: 350px;
     object-fit: cover;
+    overflow: hidden;
 }
 .learnmore-buttons button:hover{
     transform: scale(1.1);
@@ -310,15 +312,15 @@ body{
     bottom: 0;
     left: 0;
     width: 100%;
-    height: 450px; /* Adjust the height as needed */
+    height: 230px; /* Adjust the height as needed */
     filter: blur(0px); /* Initial blur effect */
     margin-top: 200px;
 }
 .map-container {
     width: 100%;
-    height: 250px;
+    height: 255px;
     position: relative;
-    filter: blur(5px); /* Apply the initial blur */
+    filter: blur(0px); /* Apply the initial blur */
 }
 #map-overlay {
     position: absolute;
@@ -335,6 +337,46 @@ body{
 
 }
 
+/*--Footer--*/
+
+.footer{
+    background-color: black;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    margin-top: auto;
+    padding-top: 30px;
+    padding-right: 15px
+}
+#logo-img{
+    text-align:center;
+    margin-bottom: 5px;
+
+}
+#contact-info{
+    color: #fff;
+    text-align: center;
+    font-size: 15px;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+    
+    
+}
+#contact-info img{
+    padding: 0 5px;
+    margin-left: 15px;
+    text-align: center;
+    margin-right: -5px;
+
+}
+#copyright{
+    color: #fff;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: bold;
+
+}
 
 
 
@@ -382,9 +424,21 @@ body{
         margin-bottom: 20px;
         
     }
+    #learnmore-text {
+        font-size: 22px;
+    }
     .learnmore-buttons button{
         max-width: 300px;
         max-height: 100%;
         position: relative;
+        font-size: 25px;
+        border-radius: 3px;
     }
+    #copyright{
+        font-size: 14px;
+    }
+    #contact-info{
+        font-size: 14px;
+    }
+
 }
