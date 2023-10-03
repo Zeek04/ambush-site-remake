@@ -71,4 +71,3 @@ accordionItems.forEach(item => {
         }
     });
 });
-

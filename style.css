@@ -352,7 +352,7 @@ body{
     padding-left: 15px;
     margin-top: auto;
     padding-top: 30px;
-    padding-right: 15px
+    padding-right: 15px;
 }
 #logo-img{
     text-align:center;
@@ -385,8 +385,6 @@ body{
     font-weight: bold;
 
 }
-
-
 
 
 /*--smaller screen changes--*/

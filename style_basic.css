@@ -1,0 +1,229 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing:border-box;
+}
+body{
+    background:linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)),url(img/blackbg.jpg);
+}
+
+
+/*--Logo--*/
+
+.title{
+    width: 85%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+}
+.logo{
+    width: auto;
+    cursor: pointer;
+}
+.logo strong{
+    font-size: 25px;
+    margin: 16%;
+    color: #08A045;
+}
+#logo-text{
+    color:#fff;
+}
+
+/*--Side Menu--*/
+
+#sideNav{
+    width: 250px;
+    height: 100vh;
+    position: fixed;
+    right: -250px;
+    top: 0;
+    background: #08A045;
+    z-index: 2;
+    transition: 0.5s;
+}
+nav ul li{
+    list-style: none;
+    margin: 50px 20px;
+}
+nav ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+}
+.active, nav ul li a:hover{
+    background-color: #16e45b;
+    border-radius: 4px;
+    height: 40px;
+}
+#menuBtn{
+    width: 5%;
+    margin-top: 50px;
+    text-align: center;
+    position: fixed;
+    right: 25px;
+    top:1px;
+    border-radius: 3px;
+    z-index: 3;
+    cursor: pointer;
+}
+#menuBtn img{
+    width: 35px;
+    margin-top: 1px;
+    border-radius: 35px;
+}
+
+/*--Content--*/
+
+
+
+
+
+
+
+
+/*--Google Map--*/
+
+.map-section {
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 230px; /* Adjust the height as needed */
+    filter: blur(0px); /* Initial blur effect */
+    margin-top: 200px;
+}
+.map-container {
+    width: 100%;
+    height: 255px;
+    position: relative;
+    filter: blur(0px); /* Apply the initial blur */
+}
+#map-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 250px;
+    background: rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+}
+.map-container iframe{
+    width: 100%;
+    height: 250px;
+
+}
+
+/*--Footer--*/
+
+.footer{
+    background-color: black;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    margin-top: auto;
+    padding-top: 30px;
+    padding-right: 15px;
+}
+#logo-img{
+    text-align:center;
+    margin-bottom: 5px;
+
+}
+#contact-info{
+    color: #fff;
+    text-align: center;
+    font-size: 15px;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+    
+    
+}
+#contact-info img{
+    padding: 0 5px;
+    margin-left: 15px;
+    text-align: center;
+    margin-right: -5px;
+    color: #fff;
+
+}
+#copyright{
+    color: #fff;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: bold;
+
+}
+
+
+
+/*--smaller screen changes--*/
+
+@media screen and (max-width:770px){
+    nav ul li a{
+        font-size: 15px;
+    }
+    #menuBtn{
+        margin-right: 15px;
+    }
+    #DroneVid{
+        width: 100%;
+    }
+    .introText p{
+        font-size: 14px;
+        line-height: 25px;
+        margin: 20px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .introText h1{
+        font-size: 22px;
+    }
+
+    .introText h2{
+        margin-top: 5px;
+        font-size: 22px;
+    }
+
+    .introText #videoText{
+        font-size: 14px;
+        position: relative;
+    }
+
+    .content h1{
+        font-size: 45px;
+    }
+
+    .video-container{
+        margin-top: 80px;
+        display:block
+    }
+    .introText #zone-description label{
+        height: 25px;
+        justify-content: space-between;
+    }
+    .introText #zone-description li{
+        margin-bottom: 20px;
+        
+    }
+    #learnmore-text {
+        font-size: 22px;
+    }
+    .learnmore-buttons button{
+        max-width: 300px;
+        max-height: 100%;
+        position: relative;
+        font-size: 25px;
+        border-radius: 3px;
+    }
+    #copyright{
+        font-size: 14px;
+    }
+    #contact-info{
+        font-size: 13px;
+        margin-left: -20px; 
+    }
+    
+
+}
