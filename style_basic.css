@@ -282,6 +282,26 @@ background-color: #16e45b;
     #container-title{
         font-size: 22px;
     }
+    #text-to-left h4{
+        font-size: 20px;
+    }
+    #text-to-left p{
+        font-size: 15px;
+    }
+    #text-to-right h4{
+        font-size: 20px;
+    }
+    #text-to-right p{
+        font-size: 15px;
+    }
+    #general-information h3{
+        font-size: 25px;
+    }
+    #general-information #information-list{
+        font-size: 15px;
+        line-height: 50px;
+        margin: 20px;
+    }
     #copyright{
         font-size: 14px;
     }
