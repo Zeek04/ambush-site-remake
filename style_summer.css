@@ -96,12 +96,161 @@ nav ul li a:hover{
 
 /*--Content--*/
 
-/*--Basic Text--*/
+/*--Title Text--*/
+.title-container{
+    background-color: #08A045;
+    padding: 20px;
+    margin-top: 50px;
+}
+#title{
+    font-size: 45px;
+    text-align: center;
+    color: #fff;
+    margin: 20px;
+}
+#title-of-camp{
+    color: rgba(250,255,25,1);
+    text-align: center;
+    margin-top: 65px;
+    font-size: 35px;
+    padding: 10px;
+}
+#age{
+    color: #fff;
+    text-align: center;
+    font-size: 30px;
+}
+#date{
+    color: rgba(250,255,25,1);
+    text-align: center;
+    padding: 25px;
+    margin-top: 40px;
+    font-size: 25px;
+    
+}
+#price{
+    color: #fff;
+    text-align: center;
+    line-height: 35px;
+    font-size: 20px;
+    font-style: italic;
+    text-decoration: underline;
+}
+#airsoft-dates{
+    color: rgba(250,255,25,1);
+    text-align: center;
+    padding: 25px;
+    margin-top: 40px;
+    font-size: 25px;
+    
+}
+#airsoft-only{
+    color: rgba(250,255,25,1);
+    text-align: center;
+    margin-bottom: 15px;
+    font-size: 20px;
+    margin-top: -15px;
+}
+#included{
+    color: rgba(250,255,25,1);
+    text-align: center;
+    padding: 40px;
+    font-size: 22px;
+    margin-top:40px;
+}
+#time{
+    color: #fff;
+    text-align: center;
+    font-size: 20px;
+    line-height:35px;
+    font-style: italic;
+}
+#time strong{
+    color: rgba(250,255,25,1);
+    text-decoration: underline;
+}
+.camp-information{
+    color: #fff;
+    text-align: center;
+    font-size: 18px;
+    line-height: 25px;
+    margin: 30px;
+    padding: 20px;
+}
+.camp-information strong{
+    color: #16e45b;
+    font-style: italic;
+}
+.text-container{
+    background-color: rgba(69,69,69,1);
+}
+#rules{
+    color: #fff;
+    text-align: center;
+    font-size: 22px;
+    line-height: 50px;
+    margin: 25px;
+    font-weight: bold;
+}
+#register{
+    text-align: center;
+    font-size: 25px;
+    margin: 30px;
+    padding: 20px;
+    text-decoration: underline;
+}
+.register h6{
+    color: rgba(250,255,25,1);
+    text-align: center;
+    font-size: 22px;
+}
+.register span{
+    color: #fff;
+    padding: 20px;
+    text-decoration: underline;
+    font-size: 20px;
+    display:flex;
+    justify-content: center;
+    font-style: italic;
+     
+}
+.register span p{
+    margin: 5px;
+}
+#contact-us{
+    text-align: center;
+    margin: 20px;
+}
+#contact-us a{
+    color: #fff;
+    background-color: #08A045;
+    text-align: center;
+    border-radius: 4px;
+    font-size: 30px;
+    padding: 5px;
+}
+.important-info h3{
+    color: rgba(250,255,25,1);
+    font-size:35px;
+    text-align: center;
+    margin-top: 60px;
+    padding: 30px;
+}
+.important-info p{
+    color: #fff;
+    font-size: 20px;
+    line-height: 50px;
+    text-align: center;
+    margin: 35px;
 
-
-
-
-
+}
+.page-ender{
+    color: #fff;
+    text-align: center;
+    margin-bottom: -170px;
+    font-size: 18px;
+    font-style: italic;
+}
 
 /*--Google Map--*/
 
@@ -189,6 +338,65 @@ nav ul li a:hover{
     }
     #menuBtn{
         margin-right: 15px;
+    }
+    #title{
+        font-size: 30px;
+    }
+    #title-of-camp{
+        font-size: 25px;
+    }
+    #age{
+        font-size: 20px;
+    }
+    #date{
+        font-size: 18px;
+    }
+    #price{
+        font-size: 15px;
+    }
+    #airsoft-dates{
+        font-size: 18px;
+    }
+    #airsoft-only{
+        font-size: 15px;
+    }
+    #included{
+        font-size: 20px;
+        margin: 5px;
+    }
+    #time{
+        font-size: 18px;
+    }
+    #rules{
+        font-size: 18px;
+        margin: 0px;
+        line-height: 60px;
+    }
+    #register{
+        font-size: 20px;
+    }
+    .register h6{
+        font-size: 18px;
+    }
+    .register span{
+        font-size: 15px;
+    }
+    #contact-us a{
+        font-size: 25px;
+    }
+    .camp-information{
+        font-size: 18px;
+    }
+    .important-info h3{
+        font-size: 20px;
+    }
+    .important-info p{
+        font-size: 15px;
+        margin: 5px;
+    }
+    .page-ender{
+        font-size: 12px;
+        margin-top: 45px;
     }
     #copyright{
         font-size: 14px;
