@@ -71,3 +71,14 @@ accordionItems.forEach(item => {
         }
     });
 });
+document.addEventListener('DOMContentLoaded', function () {
+    const dropdowns = document.querySelectorAll('.drop-down');
+
+    dropdowns.forEach(function (dropdown) {
+        const parent = dropdown.parentElement;
+        parent.addEventListener('click', function () {
+            dropdown.classList.toggle('active');
+            dropdown.style.maxHeight = dropdown.classList.contains('active') ? dropdown.scrollHeight + 'px' : 0;
+        });
+    });
+});

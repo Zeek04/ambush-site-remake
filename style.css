@@ -52,14 +52,35 @@
 }
 nav ul li{
     list-style: none;
-    margin: 50px 20px;
+    margin: 70px 20px;
 }
 nav ul li a{
     color: #fff;
     text-decoration: none;
     font-size: 20px;
 }
-.active, nav ul li a:hover{
+.drop-down ul {
+    display: none;
+    margin-top: 10px; /* Add margin to create space below the dropdown */
+}
+/* Style for active dropdown */
+.drop-down.active ul {
+    display: block;
+}
+#options li{
+    margin: 30px;
+}
+.arrow {
+    display: inline-block;
+    margin-left: 10px;
+    transition: transform 0.3s;
+    color: #fff;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
+    transform: rotate(90deg)
+}
+nav ul li a:hover{
     background-color: #16e45b;
     border-radius: 4px;
     height: 40px;
@@ -377,6 +398,10 @@ body{
     color: #fff;
 
 }
+#contact-info img text{
+    color: #fff;
+}
+
 #copyright{
     color: #fff;
     text-align: center;
