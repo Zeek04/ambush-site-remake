@@ -1,0 +1,399 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing:border-box;
+}
+body{
+    background:linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)),url(/img/blackbg.jpg);
+}
+
+
+/*--Logo--*/
+
+.title{
+    width: 85%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+}
+.logo{
+    width: auto;
+    cursor: pointer;
+}
+.logo strong{
+    font-size: 25px;
+    margin: 16%;
+    color: #08A045;
+}
+#logo-text{
+    color:#fff;
+}
+
+/*--Side Menu--*/
+
+#sideNav{
+    width: 250px;
+    height: 100vh;
+    position: fixed;
+    right: -250px;
+    top: 0;
+    background: #08A045;
+    z-index: 2;
+    transition: 0.5s;
+}
+nav ul li{
+    list-style: none;
+    margin: 50px 20px;
+}
+nav ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+}
+.drop-down ul {
+    display: none;
+    margin-top: 10px; 
+}
+.drop-down.active ul {
+    display: block;
+}
+#options li{
+    margin: 30px;
+}
+.arrow {
+    display: inline-block;
+    margin-left: 10px;
+    transition: transform 0.3s;
+    color: #fff;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
+    transform: rotate(90deg)
+}
+nav ul li a:hover{
+    background-color: #16e45b;
+    border-radius: 4px;
+    height: 40px;
+}
+#menuBtn{
+    width: 5%;
+    margin-top: 50px;
+    text-align: center;
+    position: fixed;
+    right: 25px;
+    top:1px;
+    border-radius: 3px;
+    z-index: 3;
+    cursor: pointer;
+}
+#menuBtn img{
+    width: 35px;
+    margin-top: 1px;
+    border-radius: 35px;
+}
+
+/*--Content--*/
+
+/*--Title Text--*/
+.title-container{
+    background-color: #08A045;
+    padding: 20px;
+    margin-top: 50px;
+}
+#title{
+    font-size: 45px;
+    text-align: center;
+    color: #fff;
+    margin: 20px;
+}
+
+/*--Main Content--*/
+
+.sub-text{
+    color: #fff;
+    text-align: center;
+    font-size: 25px;
+    margin: 20px;
+    padding: 10px;
+    font-style: oblique;
+}
+.sub-text strong{
+    color: #16e45b;
+}
+.preference h3{
+    color: rgba(250,255,25,1);
+    text-align: center;
+    font-size: 35px;
+    margin-top: 40px;
+}
+.preference p{
+    color: #fff;
+    text-align: center;
+    font-size: 25px;
+    line-height: 40px;
+    margin: 20px;
+    font-style: oblique;
+}
+.preference p a{
+    color: #16e45b;
+}
+.private-booking h3{
+    color: rgba(250,255,25,1);
+    text-align: center;
+    font-size: 35px;
+    margin-top: 40px;
+}
+.private-booking h6{
+    color: #08A045;
+    text-align: center;
+    margin-top: 40px;
+    font-size: 28px;
+    text-decoration: underline;
+}
+.private-booking p{
+    text-align: center;
+    color: #fff;
+    margin: 20px;
+    line-height: 40px;
+    font-size: 25px;
+    font-style: oblique;
+    
+}
+.private-booking p strong{
+    color: #16e45b;
+}
+.reservation h3{
+    color: rgba(250,255,25,1);
+    text-align: center;
+    font-size: 35px;
+    margin-top: 40px;
+}
+.reservation p{
+    text-align: center;
+    color: #fff;
+    margin: 20px;
+    font-size: 25px;
+    font-style: oblique;
+}
+.reservation p a{
+    color: #16e45b;
+}
+.secure-reservation h3{
+    color: rgba(250,255,25,1);
+    text-align: center;
+    font-size: 35px;
+    margin-top: 40px;
+}
+.secure-reservation h6{
+    color: #08A045;
+    text-align: center;
+    margin-top: 40px;
+    font-size: 28px;
+    text-decoration: underline;
+}
+.secure-reservation p{
+    text-align: center;
+    color: #fff;
+    margin: 20px;
+    line-height: 45px;
+    font-size: 25px;
+    font-style: oblique;
+}
+#all-day-only strong{
+    color: #16e45b;
+}
+.cancel-res h3{
+    color: rgba(250,255,25,1);
+    text-align: center;
+    font-size: 35px;
+    margin-top: 40px;
+}
+.cancel-res p{
+    text-align: center;
+    color: #fff;
+    margin: 20px;
+    line-height: 45px;
+    font-size: 25px;
+    font-style: oblique;
+}
+.cancel-res p strong{
+    color: #16e45b;
+}
+.general-info h3{
+    color: rgba(250,255,25,1);
+    text-align: center;
+    font-size: 35px;
+    margin-top: 40px;
+}
+.general-info p{
+    text-align: center;
+    color: #fff;
+    margin: 20px;
+    line-height: 55px;
+    font-size: 25px;
+    font-style: oblique;
+}
+.general-info p a{
+    color: #16e45b;
+}
+.general-info p strong{
+    color: #16e45b;
+}
+
+
+/*--Google Map--*/
+
+.map-section {
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 230px; /* Adjust the height as needed */
+    filter: blur(0px); /* Initial blur effect */
+    margin-top: 200px;
+}
+.map-container {
+    width: 100%;
+    height: 255px;
+    position: relative;
+    filter: blur(0px); /* Apply the initial blur */
+}
+#map-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 250px;
+    background: rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+}
+.map-container iframe{
+    width: 100%;
+    height: 250px;
+
+}
+
+/*--Footer--*/
+
+.footer{
+    background-color: black;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    margin-top: auto;
+    padding-top: 30px;
+    padding-right: 15px;
+}
+#logo-img{
+    text-align:center;
+    margin-bottom: 5px;
+
+}
+#contact-info{
+    color: #fff;
+    text-align: center;
+    font-size: 15px;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+    
+    
+}
+#contact-info img{
+    padding: 0 5px;
+    margin-left: 15px;
+    text-align: center;
+    margin-right: -5px;
+    color: #fff;
+
+}
+#contact-info img text{
+    color: #fff;
+}
+#copyright{
+    color: #fff;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: bold;
+
+}
+
+
+
+/*--smaller screen changes--*/
+
+@media screen and (max-width:770px){
+    nav ul li a{
+        font-size: 15px;
+    }
+    #menuBtn{
+        margin-right: 15px;
+    }
+    #title{
+        font-size: 30px;
+    }
+    .sub-text{
+        font-size: 20px;
+        line-height: 30px;
+        margin: 15px;
+    }
+    .preference h3{
+        font-size: 25px;
+    }
+    .preference p{
+        font-size: 18px;
+        margin: 25px;
+    }
+    .private-booking h3{
+        font-size: 25px;
+    }
+    .private-booking h6{
+        font-size: 20px;
+    }
+    .private-booking p{
+        font-size: 18px;
+        margin: 30px;
+    }
+    .reservation h3{
+        font-size: 25px;
+    }
+    .reservation p{
+        font-size: 18px;
+    }
+    .secure-reservation h3{
+        font-size: 25px;
+    }
+    .secure-reservation p{
+        font-size: 18px;
+        margin: 15px;
+    }
+    .secure-reservation h6{
+        font-size: 20px;
+    }
+    .cancel-res h3{
+        font-size: 25px;
+    }
+    .cancel-res p{
+        font-size: 18px;
+        margin: 15px;
+    }
+    .general-info h3{
+        font-size: 25px;
+    }
+    .general-info p{
+        font-size: 18px;
+        margin: 20px;
+    }
+
+    #copyright{
+        font-size: 14px;
+    }
+    #contact-info{
+        font-size: 13px;
+        margin-left: -20px; 
+    }
+
+    
+
+}
