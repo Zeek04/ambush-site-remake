@@ -454,12 +454,11 @@ body{
         display:block
     }
     .introText #zone-description label{
-        height: 25px;
+        height: 30px;
         justify-content: space-between;
     }
     .introText #zone-description li{
-        margin-bottom: 20px;
-        
+        margin-bottom: 15px;
     }
     #learnmore-text {
         font-size: 22px;
