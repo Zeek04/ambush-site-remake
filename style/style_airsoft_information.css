@@ -5,7 +5,7 @@
     box-sizing:border-box;
 }
 body{
-    background:linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)),url(img/blackbg.jpg);
+    background:linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)),url(/img/blackbg.jpg);
 }
 
 
@@ -171,41 +171,51 @@ nav ul li a:hover{
 .protection p strong{
     color: #16e45b;
 }
-.paintballs h3{
+.bbs h3{
     color: rgba(250,255,25,1);
     text-align: center;
     font-size: 35px;
     margin-top: 40px;
 }
-.paintballs p{
+.bbs p{
     color: #fff;
     text-align: center;
     font-size: 25px;
     margin: 20px;
     font-style: oblique;
+    line-height: 40px;
 }
-.chrono h3{
+.fps-limit h3{
     color: rgba(250,255,25,1);
     text-align: center;
     font-size: 35px;
-    margin-top: 30px;
+    margin-top: 40px;
 }
-.chrono p{
+.fps-limit p{
     color: #fff;
     text-align: center;
     font-size: 25px;
-    margin-top: 20px;
+    line-height: 45px;
     font-style: oblique;
 }
-.chrono p strong{
+.fps-limit h5{
+    color: rgba(250,255,25,1);
+    text-align: center;
+    font-size: 30px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+#fps strong{
     color: #16e45b;
 }
-
-
-
-
-
-
+.page-ender{
+    color: #fff;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: -175px;
+    font-size: 25px;
+    line-height: 40px;
+}
 
 /*--Google Map--*/
 
@@ -324,20 +334,25 @@ nav ul li a:hover{
     .protection p{
         font-size: 18px;
     }
-    .paintballs h3{
+    .bbs h3{
         font-size: 25px;
     }
-    .paintballs p{
+    .bbs p{
         font-size: 18px;
     }
-    .chrono h3 {
+    .fps-limit h3{
         font-size: 25px;
     }
-    .chrono p{
+    .fps-limit p{
         font-size: 18px;
-        line-height: 35px;
+        margin: 5px;
     }
-    
+    .fps-limit h5{
+        font-size: 20px;
+    }
+    .page-ender{
+        font-size: 16px;
+    }
     #copyright{
         font-size: 14px;
     }

@@ -15,7 +15,7 @@
     height: 100vh;
     overflow: hidden;
     position: relative;
-    background-image: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)),url(img/ssph1.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)),url(/img/ssph1.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -157,27 +157,27 @@ button:hover{
 @keyframes change{
 0%
 {
-    background-image: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)),url(img/ssph2.png);
+    background-image: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)),url(/img/ssph2.png);
 }
 30%
 {
-    background-image: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)),url(img/ssph3.png);
+    background-image: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)),url(/img/ssph3.png);
 }
 60%
 {
-    background-image: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)),url(img/ssph4.png);
+    background-image: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)),url(/img/ssph4.png);
 }
 90%
 {
-    background-image: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)),url(img/ssph5.png);
+    background-image: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)),url(/img/ssph5.png);
 }
 120%
 {
-    background-image: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)),url(img/ssph6.png);
+    background-image: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)),url(/img/ssph6.png);
 }
 150%
 {
-    background-image: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)),url(img/ssph7.png);
+    background-image: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)),url(/img/ssph7.png);
 }
 }
 
@@ -185,7 +185,7 @@ button:hover{
 /*-- what is ambush? --*/
 
 body{
-    background:linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)),url(img/blackbg.jpg);
+    background:linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)),url(/img/blackbg.jpg);
 }
 
 .introText{

@@ -5,7 +5,7 @@
     box-sizing:border-box;
 }
 body{
-    background:linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)),url(img/blackbg.jpg);
+    background:linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)),url(/img/blackbg.jpg);
 }
 
 
@@ -96,112 +96,110 @@ nav ul li a:hover{
 
 /*--Content--*/
 
-/*--Basic Text--*/
-.basic-title-text{
-    color: rgba(250,255,25,1);
+/*--Title Text--*/
+.title-container{
+    background-color: #08A045;
+    padding: 20px;
+    margin-top: 50px;
+}
+#title{
     font-size: 45px;
     text-align: center;
-    margin: 20px;
-    margin-top: 45px;
-}
-#opener-text{
     color: #fff;
-    font-size: 22px;
-    font-weight: bold;
-    line-height: 45px;
-    margin: 70px;
-    text-align: center;
-}
-
-/*--Grey Box--*/
-.text-container{
-    background-color: rgba(69,69,69,1) ;
-    width: auto;
-    height: auto;
-    padding-bottom: 0;
-    padding-top: 0;
-    padding-left: 15px;
-    padding-right: 15px
-    
-
-}
-#container-title{
-    color: #fff;
-    text-align: center;
-    font-size: 40px;
-}
-#text-to-left{
-    color: #fff;
-}
-#text-to-left h4{
-    font-size: 30px;
     margin: 20px;
 }
-#text-to-left p{
-    font-size: 20px;
-    margin: 20px;
-    font-weight: 600;
-    line-height: 1.5;
-    display: block;
-}
-#text-to-left a{
-    color: #fff;
-    background-color: #08A045;
-    border-radius: 5px;
-    margin: 30px;
-    padding: 5px;
-}
-#text-to-left a:hover{
-background-color: #16e45b;
-}
-#text-to-right{
-    color:#fff;
-}
-#text-to-right a{
-    color:#fff;
-    background-color: #08A045;
-    border-radius: 5px;
-    margin: 30px;
-    padding: 5px;
-}
-#text-to-right a:hover{
-    background-color: #16e45b;
-    }
-#text-to-right h4{
-    font-size: 30px;
-    margin: 20px;
-}
-#text-to-right p{
-    display: block;
-    margin: 20px;
-    font-size: 20px;
-    font-weight: 600;
-    line-height: 1.5;
-}
-
-/*--General Information--*/
-#general-information{
-    color: #fff;
-}
-#general-information h3{
+/*--Main Content--*/
+.age-limit h3{
     text-align: center;
     color: rgba(250,255,25,1);
-    font-size: 45px;
-    margin: 50px;
+    padding: 30px;
+    margin-top: 70px;
+    font-size: 35px;
 }
-#general-information #information-list{
+.age-limit p{
+    color: #fff;
+    text-align: center;
     font-size: 25px;
+    margin-top: 0px;
+    font-style: oblique;
+}
+.waiver h3{
+    color: rgba(250,255,25,1);
     text-align: center;
-    line-height: 70px;
-    font-weight: bold;
+    margin-top: 40px;
+    font-size: 35px;
 }
-#information-list li{
-    margin-top: 10px;
+.waiver p{
+    color: #fff;
+    text-align: center;
+    line-height: 45px;
+    margin: 20px;
+    font-size: 25px;
+    font-style: oblique;
 }
-
-
-
-
+.waiver a{
+    color: rgba(250,255,25,1);
+}
+.safety h3{
+    color: rgba(250,255,25,1);
+    text-align: center;
+    font-size: 35px;
+    margin-top: 40px;
+}
+.safety p{
+    color: #fff;
+    text-align: center;
+    font-size: 25px;
+    font-style: oblique;
+    line-height: 45px;
+    margin-top: 20px;
+}
+.protection h3{
+    color: rgba(250,255,25,1);
+    text-align: center;
+    font-size: 35px;
+    margin-top: 40px;
+}
+.protection p{
+    color: #fff;
+    text-align: center;
+    font-size: 25px;
+    font-style: oblique;
+    margin-top: 20px;
+    line-height: 40px;
+}
+.protection p strong{
+    color: #16e45b;
+}
+.paintballs h3{
+    color: rgba(250,255,25,1);
+    text-align: center;
+    font-size: 35px;
+    margin-top: 40px;
+}
+.paintballs p{
+    color: #fff;
+    text-align: center;
+    font-size: 25px;
+    margin: 20px;
+    font-style: oblique;
+}
+.chrono h3{
+    color: rgba(250,255,25,1);
+    text-align: center;
+    font-size: 35px;
+    margin-top: 30px;
+}
+.chrono p{
+    color: #fff;
+    text-align: center;
+    font-size: 25px;
+    margin-top: 20px;
+    font-style: oblique;
+}
+.chrono p strong{
+    color: #16e45b;
+}
 
 
 
@@ -296,35 +294,50 @@ background-color: #16e45b;
     #menuBtn{
         margin-right: 15px;
     }
-    .basic-title-text{
+    #title{
+        font-size: 30px;
+    }
+    .age-limit h3{
         font-size: 25px;
     }
-    #opener-text{
-        font-size: 14px;
+    .age-limit p{
+        font-size: 18px;
+        margin: 5px;
     }
-    #container-title{
-        font-size: 22px;
-    }
-    #text-to-left h4{
-        font-size: 20px;
-    }
-    #text-to-left p{
-        font-size: 15px;
-    }
-    #text-to-right h4{
-        font-size: 20px;
-    }
-    #text-to-right p{
-        font-size: 15px;
-    }
-    #general-information h3{
+    .waiver h3{
         font-size: 25px;
     }
-    #general-information #information-list{
-        font-size: 15px;
-        line-height: 50px;
-        margin: 20px;
+    .waiver p{
+        font-size: 18px;
+        margin: 15px;
     }
+    .safety h3{
+        font-size: 25px;
+    }
+    .safety p{
+        font-size: 18px;
+        margin: 15px;
+    }
+    .protection h3{
+        font-size: 25px;
+    }
+    .protection p{
+        font-size: 18px;
+    }
+    .paintballs h3{
+        font-size: 25px;
+    }
+    .paintballs p{
+        font-size: 18px;
+    }
+    .chrono h3 {
+        font-size: 25px;
+    }
+    .chrono p{
+        font-size: 18px;
+        line-height: 35px;
+    }
+    
     #copyright{
         font-size: 14px;
     }
