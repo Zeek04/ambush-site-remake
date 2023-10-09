@@ -96,119 +96,95 @@ nav ul li a:hover{
 
 /*--Content--*/
 
-/*--Basic Text--*/
-.basic-title-text{
-    color: rgba(250,255,25,1);
+.page-title h1{
     font-size: 45px;
-    text-align: center;
-    margin: 20px;
-    margin-top: 45px;
-}
-#opener-text{
-    color: #fff;
-    font-size: 22px;
-    font-weight: bold;
-    line-height: 45px;
-    margin: 70px;
-    text-align: center;
-}
-
-/*--Grey Box--*/
-.text-container{
-    background-color: rgba(69,69,69,1) ;
-    width: auto;
-    height: auto;
-    padding-bottom: 0;
-    padding-top: 0;
-    padding-left: 15px;
-    padding-right: 15px
-    
-
-}
-#container-title{
-    color: #fff;
-    text-align: center;
-    font-size: 40px;
-}
-#text-to-left{
-    color: #fff;
-}
-#text-to-left h4{
-    font-size: 30px;
-    margin: 20px;
-}
-#text-to-left p{
-    font-size: 20px;
-    margin: 20px;
-    font-weight: 600;
-    line-height: 1.5;
-    display: block;
-}
-#text-to-left a{
-    color: #fff;
-    background-color: #08A045;
-    border-radius: 5px;
-    margin: 30px;
-    padding: 5px;
-}
-#text-to-left a:hover{
-background-color: #16e45b;
-}
-#text-to-right{
-    color:#fff;
-}
-#text-to-right a{
-    color:#fff;
-    background-color: #08A045;
-    border-radius: 5px;
-    margin: 30px;
-    padding: 5px;
-}
-#text-to-right a:hover{
-    background-color: #16e45b;
-    }
-#text-to-right h4{
-    font-size: 30px;
-    margin: 20px;
-}
-#text-to-right p{
-    display: block;
-    margin: 20px;
-    font-size: 20px;
-    font-weight: 600;
-    line-height: 1.5;
-}
-
-/*--General Information--*/
-#general-information{
-    color: #fff;
-}
-#general-information h3{
-    text-align: center;
     color: rgba(250,255,25,1);
-    font-size: 45px;
-    margin: 50px;
+    margin-top: 40px;
 }
-#general-information #information-list{
+.page-title p{
+    color: #fff;
     font-size: 25px;
-    text-align: center;
-    line-height: 70px;
+    margin-top: 20px;
+    font-style: oblique;
+}
+.container{
+    width: 80%;
+    margin: 50px auto;
+}
+.contact-box{
+    background: #16e45b;
+    display: flex;
+}
+.contact-left{
+    flex-basis: 60%;
+    padding: 40px 60px;
+    
+}
+.contact-left h3{
+    margin-bottom: 20px;
+    font-size: 25px;
+}
+.contact-right h3{
+    margin-bottom: 20px;
+    font-size: 25px;
+}
+.contact-right{
+    flex-basis: 60%;
+    padding: 40px 60px;
+    background: #08A045;
+    color: #fff;
+}
+.input-row{
+    display: block;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.input-row .input-group{
+    flex-basis: 45%;
+}
+.input-group{
+    margin-bottom: 30px;
+}
+input{
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #000;
+    outline: none;
+    padding-bottom: 5px;
+    background-color: #16e45b;
+}
+textarea{
+    width: 100%;
+    border: 1px solid #000;
+    outline: none;
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: #16e45b;
+}
+label{
+    margin-bottom: 6px;
+    display: block;
+}
+button{
+    background-color: #08A045;
+    width: 100px;
+    border: none;
+    outline: none;
+    color: #fff;
+    height: 35px;
+    border-radius: 30px;
+    margin-top: 20px;
+    box-shadow: 0px 5px 15px 0px rgba(26, 134, 31, 0.3);
+}
+tr td:first-child{
+    padding-right: 20px;
     font-weight: bold;
+    font-size: 18px;
 }
-#information-list li{
-    margin-top: 10px;
+tr td{
+    padding-top: 40px;
+    display: block;
 }
-
-
-
-
-
-
-
-
-
-
-
 /*--Google Map--*/
 
 .map-section {
@@ -296,33 +272,14 @@ background-color: #16e45b;
     #menuBtn{
         margin-right: 15px;
     }
-    .basic-title-text{
-        font-size: 25px;
+    .contact-box{
+        display: block;
     }
-    #opener-text{
-        font-size: 14px;
+    .page-title h1{
+        font-size: 35px;
     }
-    #container-title{
-        font-size: 22px;
-    }
-    #text-to-left h4{
+    .page-title p{
         font-size: 20px;
-    }
-    #text-to-left p{
-        font-size: 15px;
-    }
-    #text-to-right h4{
-        font-size: 20px;
-    }
-    #text-to-right p{
-        font-size: 15px;
-    }
-    #general-information h3{
-        font-size: 25px;
-    }
-    #general-information #information-list{
-        font-size: 15px;
-        line-height: 50px;
         margin: 20px;
     }
     #copyright{
